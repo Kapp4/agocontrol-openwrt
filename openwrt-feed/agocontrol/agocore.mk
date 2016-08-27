@@ -1,7 +1,7 @@
 define Package/agocontrol-resolver
   $(call Package/agocontrol/default)
   TITLE:=agocontrol-resolver
-  DEPENDS:=+libyaml-cpp +libagoclient +libsqlite3 +boost-filesystem +boost-system +agocontrol-common
+  DEPENDS:=+libyaml +libagoclient +libsqlite3 +boost-filesystem +boost-system +agocontrol-common
 endef
 
 ifeq ($(CONFIG_PACKAGE_agocontrol-resolver),)
