@@ -9,7 +9,7 @@ PKG_SOURCE:=master.zip
 PKG_SOURCE_URL:=https://github.com/jbeder/yaml-cpp/archive/
 
 #PKG_BUILD_DEPENDS:=boost-test
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-master
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
