@@ -5,9 +5,8 @@ PKG_NAME:=yaml-cpp
 PKG_VERSION:=0.3.0
 PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=http://yaml-cpp.googlecode.com/files/
-PKG_SHA1SUM:=28766efa95f1b0f697c4b4a1580a9972be7c9c41
+PKG_SOURCE:=master.zip
+PKG_SOURCE_URL:=https://github.com/jbeder/yaml-cpp/archive/
 
 #PKG_BUILD_DEPENDS:=boost-test
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
