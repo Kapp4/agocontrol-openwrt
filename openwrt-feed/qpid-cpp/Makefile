@@ -6,10 +6,10 @@ PKG_VERSION:=0.26
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=http://apache.cs.uu.nl/dist/qpid/$(PKG_VERSION)
+PKG_SOURCE_URL:=http://archive.apache.org/dist/qpid/$(PKG_VERSION)
 PKG_SHA1SUM:=df8ecab9415ced204d71ffdb73e0dde3aa60d428
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/qpidc-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/qpid-cpp-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
