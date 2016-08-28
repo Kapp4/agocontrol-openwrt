@@ -8,6 +8,7 @@ PKG_RELEASE:=1
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=master
 PKG_SOURCE_URL:=https://github.com/Kapp4/yaml-cpp.git
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
 
 #PKG_BUILD_DEPENDS:=boost-test
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-master
