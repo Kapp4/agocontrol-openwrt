@@ -5,11 +5,13 @@ PKG_NAME:=qpid-cpp
 PKG_VERSION:=0.26
 PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=http://archive.apache.org/dist/qpid/$(PKG_VERSION)
-PKG_SHA1SUM:=df8ecab9415ced204d71ffdb73e0dde3aa60d428
+PKG_SOURCE_URL:=https://github.com/Kapp4/qpid-cpp.git
+PKG_SOURCE_PROTO:=git
+PKG_SOURCE_VERSION:=master
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/qpid-cpp-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
