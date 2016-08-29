@@ -4,7 +4,7 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=agocontrol
 PKG_VERSION:=$(shell date +%Y%m%d)
 PKG_RELEASE=$(shell date +%H%M%S)
-PKG_SOURCE_VERSION:=develop
+PKG_SOURCE_VERSION:=master
 PKG_SOURCE_URL:=https://git.agocontrol.com/agocontrol/agocontrol.git
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
